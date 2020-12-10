@@ -1,0 +1,66 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.table {
+  display: table;
+  font-family: Lato;
+  margin-bottom: auto;
+}
+
+ul {
+	color: grey;
+  display: table;
+  min-width: auto;
+}
+
+
+li {
+  background: rgba(240, 240, 240, 0.5);
+  list-style: none;
+  font-size: 20px;
+  padding: 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+h2 {
+	font-family: Lato;
+	font-size: 3em;
+	text-align: center;
+	margin-top: auto;
+}
+
+p {
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: normal;
+	color: grey;
+	border: 10px;
+	margin-bottom: 50px;
+
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img {
+	height: 400px;
+	width: 600px;
+	margin: 20px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1) ;
+}
